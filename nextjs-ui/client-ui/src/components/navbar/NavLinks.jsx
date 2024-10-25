@@ -10,8 +10,8 @@ export default function NavLinks(){
     ]
     return(
         <div>
-            {navlinks.map((links)=>(
-                <Link  href={links.destination}>{links.name}</Link>
+            {navlinks.map((links ,index)=>(
+                <Link    className="mx-3 text" key={index} href={links.destination}>{links.name}</Link>
             ))}
         </div>
     )
