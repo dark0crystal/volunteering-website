@@ -1,0 +1,17 @@
+﻿@volunteering-website_HostAddress = https://localhost:7072
+
+GET {{volunteering-website_HostAddress}}/Posts/Welcome
+
+###
+
+GET {{volunteering-website_HostAddress}}/Posts/Welcome
+
+###
+
+GET {{volunteering-website_HostAddress}}/api/posts
+
+###
+
+GET {{volunteering-website_HostAddress}}/api/posts
+
+###
